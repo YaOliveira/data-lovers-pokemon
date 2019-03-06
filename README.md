@@ -19,7 +19,7 @@ Segundo projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootca
 
 No primeiro sprint foi utilizado a ferramenta **Trello**.
 
-Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divididas entre as integrantes da dupla. Foram priorizadas utilizando 2 critérios principais: o que era necessário para formar o _esqueleto_ do site e o que "nós" como desenvolvedoras tínhamos mais facilidade em desenvolver, deixando o que demandaria mais tempo de aprendizagem e de desenvolvimento por último. Todos os itens tinham data definida / prevista para término.
+Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divididas entre as integrantes da dupla. Foram priorizadas utilizando 2 critérios principais: o que era necessário para formar o _esqueleto_ do site e o que "nós" como desenvolvedoras tínhamos mais facilidade em programar, deixando o que demandaria mais tempo de aprendizagem e de desenvolvimento por último. Todos os itens possuiam data definida para o término.
 
 [Trello Data Lovers](https://trello.com/invite/b/qJ3Bf00s/8a48912b62a88909ed1dbd86afe2aa93/data-lovers)
 
@@ -49,7 +49,7 @@ O objetivo da aplicação é oferecer uma interface intuitiva que proporcione  a
 
 
 ## Protótipo
-[Link do Protótipo - Marvel](https://marvelapp.com/b2cg16h)
+[Link do 1º Protótipo - Marvel](https://marvelapp.com/b2cg16h)
 
 Durante seu trabalho você deverá ter feito esboços de sua solução usando papel
 e lápis. Recomendamos que você tire fotos de todas as iterações que faça, suba
