@@ -45,7 +45,7 @@ Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divid
 
 **Pokelab** é um site focado nos jogadores do Pokémon GO, onde possibilita buscas por ordem alfabética e por tipo.
 
-O objetivo da aplicação é oferecer uma interface intuitiva que proporcione  ao usuário uma ferramenta de pesquisa e consulta que traz informações relevantes sobre Pokémons da região Kanto.
+O objetivo da aplicação é oferecer uma interface intuitiva e divertida que proporcione ao usuário uma ferramenta de pesquisa e consulta e traga informações relevantes sobre os Pokémons.
 
 
 ## Protótipo
