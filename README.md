@@ -9,7 +9,7 @@ Segundo projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootca
 
 * [Organização](#organização)
 * [Checklist](#checklist)
-* [Persona](#persona)
+* [Personas](#persona)
 * [Definição do produto](#definição-do-produto)
 * [Protótipo](#protótipo)
 * [Testes de usabilidade](#testes-de-usabilidade)
@@ -36,10 +36,10 @@ Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divid
   (asc e desc).
 * [ ] UI: Permite filtrar os dados com base em uma condição.
 
-## Persona
+## Personas
 
-![Bruno](docs/persona-bruno.png)
-![Neyde](docs/persona-neyde.png)
+![Bruno](../docs/persona-bruno.png)
+![Neyde](../docs/persona-neyde.png)
 
 ## Definição do produto
 
