@@ -1,0 +1,60 @@
+.background {
+	background-image: url(../../assets/images/bg-city.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: #ffe520; */
+	margin: 0px;
+	/* display: flex; */
+
+
+}
+
+/*.arrows {
+	float: left;
+	opacity: 0.7;
+	height: 650px;
+	width: 100%;
+}
+*/
+
+.body {
+	background-color: #F6DA2C;
+	height: 200px;
+	margin-top: 200px;
+	width: 300px;
+	padding-right: 130px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 6px 6px 10px #4d4908;
+	margin-left: 20px;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 30px;
+	border-radius: 10px;
+
+}
+
+.logo {
+	height: 120px;
+    margin-left: 50px;
+}
+
+.btn {
+	margin-left: 100px;
+	width: 250px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: #FFCB05;
+	color: #3A57A1;
+	font-size: 20px;
+	border-width: 5px;
+	border-color: #3A57A1;
+	box-shadow: 2px 2px 4px gray;
+}
+
+a > button {
+	cursor: pointer;
+}
+
+a > button:hover {
+	opacity: 0.7;
+}

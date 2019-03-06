@@ -5,6 +5,7 @@ Dupla: *Daiana Lugo Carvalho & Yara Guimarães de Oliveira*
 
 Segundo projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Laboratória** - campus SP - Brasil.
 
+
 ## Índice
 
 * [Organização](#organização)
