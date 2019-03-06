@@ -39,7 +39,7 @@ Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divid
 ## Personas
 
 ![Bruno](../docs/persona-bruno.png)
-![Neyde](../docs/persona-neyde.png)
+![Neyde](../docs/person-neyde.png)
 
 ## Definição do produto
 
