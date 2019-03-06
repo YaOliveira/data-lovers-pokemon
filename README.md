@@ -1,9 +1,9 @@
 # Data Lovers - Pokémon
 Dupla: *Daiana Lugo Carvalho & Yara Guimarães de Oliveira*
 
-[Link da aplicação](https://daianalugocarvalho.github.io/data-lovers/)
+[Link da aplicação](https://yaoliveira.github.io/data-lovers-pokemon/)
 
-Segundo projeto desenvolvido para o curso de Desenvolvedoras Front-End no Bootcamp **Laboratória** - campus SP - Brasil.
+Segundo projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Laboratória** - campus SP - Brasil.
 
 ## Índice
 
@@ -21,7 +21,7 @@ No primeiro sprint foi utilizado a ferramenta **Trello**.
 
 Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divididas entre as integrantes da dupla. Foram priorizadas utilizando 2 critérios principais: o que era necessário para formar o _esqueleto_ do site e o que "nós" como desenvolvedoras tínhamos mais facilidade em desenvolver, deixando o que demandaria mais tempo de aprendizagem e de desenvolvimento por último. Todos os itens tinham data definida / prevista para término.
 
-![Trello Data Lovers](https://trello.com/invite/b/qJ3Bf00s/8a48912b62a88909ed1dbd86afe2aa93/data-lovers)
+[Trello Data Lovers](https://trello.com/invite/b/qJ3Bf00s/8a48912b62a88909ed1dbd86afe2aa93/data-lovers)
 
 ## Checklist
 
@@ -38,8 +38,8 @@ Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divid
 
 ## Persona
 
-![Bruno](src/img/persona-bruno.png)
-![Neyde](src/img/persona-neyde.png)
+![Bruno](docs/persona-bruno.png)
+![Neyde](docs/persona-neyde.png)
 
 ## Definição do produto
 
