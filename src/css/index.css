@@ -2,22 +2,11 @@
 	background-image: url(../../assets/images/bg-city.png);
     background-repeat: no-repeat;
 	background-size: cover;
-	/*background-color: #ffe520; */
+	height: 100vh;
 	margin: 0px;
-	/* display: flex; */
-
-
 }
 
-/*.arrows {
-	float: left;
-	opacity: 0.7;
-	height: 650px;
-	width: 100%;
-}
-*/
-
-.body {
+.body-box {
 	background-color: #F6DA2C;
 	height: 200px;
 	margin-top: 200px;
