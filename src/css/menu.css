@@ -1,9 +1,55 @@
 /* Cabeçalho */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 #animation{
     display: flex;
     flex-direction: row;
     height: 8em;
 }
+
+.container-pokemons-panel{
+    height: 300px;
+    width: 50%;
+    overflow: auto;
+    background-color: #A3C7FD;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    
+}
+
+.pokemons-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    padding: 10px 0 0 0;
+ }
+
+ .container-pokemons-panel::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+     background-color: #F5F5F5;
+     border-radius: 10px;
+ }
+
+ .container-pokemons-panel::-webkit-scrollbar
+ {
+     width: 15px;
+     background-color: #F5F5F5;
+     border-radius: 10px;
+ }
+
+ .container-pokemons-panel::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     background-color: #6A92F2; 
+ }
+
 
 /* .header {
     width: 100%;
@@ -110,6 +156,7 @@ body {
 
 #main {
     display: flex;
+    
 }
 
 #photoPerfil {
