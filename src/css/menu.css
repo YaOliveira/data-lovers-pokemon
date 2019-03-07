@@ -1,0 +1,272 @@
+/* Cabeçalho */
+/* .header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .header-top {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid grey;
+    background-color: #FFE521;
+  } */
+
+  .logo {
+    /* width: 280px; */
+    height: 80px;
+    
+  }
+/* anterior */
+.teste {
+	border: 1px solid orange;
+}
+
+/* STYLE PADRÃO NAS PAGINAS SEDE, TURMA E ALUNAS */
+
+body {
+	background-color: #f7f7f7;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#menu {
+	width: 20%;
+	height: auto;
+	background-color: #e2e2e2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+	box-shadow: 2px 0px 10px #888888;
+}
+
+#logo {
+	width: 230px;
+}
+
+#main {
+	display: flex;
+}
+
+#photoPerfil {
+	width: 80px;
+	border-radius: 50px;
+	border: 1px solid #ffe521;
+}
+
+#perfil {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 230px;
+	border-bottom: 1px solid #7f7f7f;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.name {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.sair {
+	font-size: 20px;
+	padding-top: 80px;
+	text-decoration: none;
+	color: darkolivegreen;
+}
+
+/* STYLE DA PAGINA SEDE */
+
+.sedes {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.optionSedes {
+	border: 1px solid #ffe521;
+	background-color: #ffe521;
+	width: 220px;
+	text-align: center;
+	height: 30px;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin-top: 20px;
+
+}
+
+.optionSedes:hover {
+	color: #fff;
+	border: 1px solid #ffffff;
+	background-color: #000000;
+}
+
+.imgsSedes {
+	width: 40%;
+	overflow: hidden;
+}
+
+.imageSede {
+	width: auto;
+	height: auto;
+}
+
+/* STYLE DA PAGINA TURMA */
+
+#classes {
+	width: 80%;
+}
+
+
+#nameSede {
+	padding-left: 25px;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.tituloGraph {
+	padding-left: 30px;
+	color: #595959;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+
+}
+
+/* STYLE DA PAGINA SPRINT */
+
+#buttonsMenu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+
+}
+
+.buttonMenu {
+	padding: 10px;
+	color: #7f7f7f;
+}
+
+.titulosMenu {
+	align-self: flex-start;
+	padding: 5px 5px;
+	color: #595959;
+	margin-top: 10px;
+	width: 200px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+#display {
+	width: 80%;
+}
+
+#topo {
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+}
+
+#return {
+	border-bottom: 2px solid #ffe521;
+	padding: 10px;
+
+}
+
+.icon-chevron-right {
+	padding-right: 10px;
+	text-decoration: none;
+	color: #595959;
+}
+
+.students {
+	background-color: white;
+	border-radius: 5px;
+	height: auto;
+	margin-top: 20px;
+	padding: 20px;
+	box-shadow: 2px 0px 10px #888888;
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.pie-charts {
+	display: flex;
+	width: 30%;
+	padding-left: 40px;
+}
+
+#turmas {
+	background-color: #b8b8b8;
+	border-color: transparent;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#grafics {
+	padding: 25px;
+}
+
+#nps-average {
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+
+}
+
+#students-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.nameStudent {
+	font-size: 20px;
+	border-bottom: 2px solid #ffe521;
+}
+
+.studentTrue {
+	border: 2px outset #ffe521;
+	/*	background-color: ;*/
+	text-align: center;
+}
+
+
+.studentFalse {
+	border: 1px outset #CCC;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.imgStudent {
+	width: 150px;
+	height: 150px;
+	align-self: center;
+
+}
