@@ -7,6 +7,25 @@ function getPokemons() {
 }
 console.log("Lista de Pokemons", getPokemons());
 
+function showPokemon() {
+  let pokemonsDiv = document.getElementById("pokemons-div");
+  pokemonsDiv.innerHTML = `
+  ${getPokemons().map((pokemon) => `
+  <div class="pokemon-item">
+      <img src="${pokemon["img"]}" class="pokemon-img" />
+      <div class="text-name">
+      <h3 class="pokemon-name">${pokemon["name"]}</h3>
+      </div>
+      <div class="text-number">
+      <p>${pokemon["num"]}</p>
+      </div>
+  </div>
+`)
+    }`
+}
+
+
+
 // function showPokemon(){
 //   let pokemonsDiv = document.getElementById("pokemons-div");
 //   pokemonsDiv.innerHTML = `
@@ -24,22 +43,7 @@ console.log("Lista de Pokemons", getPokemons());
 //   `
 // }
 
-function showPokemon() {
-  let pokemonsDiv = document.getElementById("pokemons-div");
-  pokemonsDiv.innerHTML = `
-  ${getPokemons().map((pokemon) => `
-  <div class="pokemon-item">
-      <img src="${pokemon["img"]}" class="pokemon-img" />
-      <div class="text-name">
-      <h3 class="pokemon-name">${pokemon["name"]}</h3>
-      </div>
-      <div class="text-number">
-      <p>${pokemon["num"]}</p>
-      </div>
-  </div>
-`)
-    }`
-}
+
 
   // const btnSubmit = document.getElementById("btn-submit");
 
