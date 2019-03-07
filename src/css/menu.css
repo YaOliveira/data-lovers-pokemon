@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 #animation{
     display: flex;
     flex-direction: row;
@@ -18,6 +17,7 @@
     background-color: #A3C7FD;
     border-radius: 0 0 10px 10px;
     display: flex;
+    margin-right: -60em;
     
 }
 
