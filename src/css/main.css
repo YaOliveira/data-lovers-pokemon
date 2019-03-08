@@ -63,7 +63,7 @@ body {
     
 }
 
-#lateral-menu {
+/* #lateral-menu {
     width: 15em;
     height: 20em;
     background-color: #e2e2e2;
@@ -72,9 +72,9 @@ body {
     align-items: center; */
     padding-top: 10px;
     box-shadow: 2px 0px 10px #888888;
-}
+} */
 
-#perfil {
+/* #perfil {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -89,9 +89,9 @@ body {
     width: 80px;
     border-radius: 50px;
     border: 1px solid #ffe521;
-}
+} */
 
-.name {
+/* .name {
     font-size: 20px;
     padding-left: 10px;
     padding-right: 25px;
@@ -112,7 +112,7 @@ body {
     margin-left: 20px;
     text-align: center;
     
-}
+} */
 #types {
     background-color: #b8b8b8;
     border-color: transparent;
