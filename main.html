@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="manifest" href="site.webmanifest">
+    <title>Data Lovers Pokemonlab</title>
+    <link rel="stylesheet" type="text/css" href="src/css/main.css">
+    <link rel="shortcut icon" href="assets/images/pokebola-favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="header-top">
+            <img src="assets/images/header-logo.gif" alt="header" id="header-animation">
+        </div>
+        <div class="menu">
+            <div>
+                <p></p>
+                <p></p>
+            </div>
+            <div>
+                <select id="sort-menu">
+                    <option value="none">Ordenação:</option>
+                    <option value="a-z">A - Z</option>
+                    <option value="z-a">Z - A</option>
+                </select>
+                <select id="generation-menu">
+                </select>
+            </div>
+        </div>
+    </header>
+    <!--Principal-->
+    <section id="main">
+    <nav>
+        <!-- <div id="lateral-menu">
+            <div id="perfil">
+                <img src="assets/images/avatar-profile.png" alt="user-perfil" id="photoPerfil">
+                <p class="name">Anônimo</p>
+                <a href="index.html" class="logout">Logout</a>
+            </div> -->
+            <!-- <p class="menu-title">Selecione um tipo:</p>
+            <select id="types" onchange="changeType()">
+                <option>Selecionar</option>
+            </select> -->
+        </div>
+    </nav>
+        <section class="container-pokemons-panel">
+            <div id="pokemons-div" class='pokemons-panel'></div>
+        </section>
+    </section>
+    
+        <footer id="footer">
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </footer>
+    </section>
+    <script type="text/javascript" src="src/data/pokemon/pokemon.js"></script>
+    <script type="text/javascript" src="src/js/main.js"></script>
+</body>
+
+</html>

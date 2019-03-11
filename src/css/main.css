@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .header-top {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid grey;
+    background-color: #FFE521;
+  } */
+
+#header-animation{
+    display: flex;
+    flex-direction: row;
+    height: 8em;
+}
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#sort-menu, #generation-menu {
+    width: 210px;
+    height: 2em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif") no-repeat #eeeeee;
+    background-position: 180px center;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    padding-left: 8px;
+    outline: 0;
+}
+
+#main {
+    display: flex;
+    
+}
+
+/* #lateral-menu {
+    width: 15em;
+    height: 20em;
+    background-color: #e2e2e2;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+    padding-top: 10px;
+    box-shadow: 2px 0px 10px #888888;
+} */
+
+/* #perfil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 230px;
+    border-bottom: 1px solid #7f7f7f;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+#photoPerfil {
+    width: 80px;
+    border-radius: 50px;
+    border: 1px solid #ffe521;
+} */
+
+/* .name {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+.logout {
+    font-size: 20px;
+    padding-top: 80px;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.menu-title {
+    align-self: flex-start;
+    padding: 5px 5px;
+    color: #595959;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    
+} */
+#types {
+    background-color: #b8b8b8;
+    border-color: transparent;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+.container-pokemons-panel{
+    height: 300px;
+    width: 50%;
+    overflow: auto;
+    background-color: #A3C7FD;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    margin-right: -60em;
+    
+}
+.container-pokemons-panel::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+     background-color: #F5F5F5;
+     border-radius: 10px;
+ }
+
+ .container-pokemons-panel::-webkit-scrollbar
+ {
+     width: 15px;
+     background-color: #F5F5F5;
+     border-radius: 10px;
+ }
+
+ .container-pokemons-panel::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     background-color: #6A92F2; 
+ }
+
+
+.pokemons-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    padding: 10px 0 0 0;
+ }
+ #footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+
+ }
+
+ 
+
+
+
+
+
+

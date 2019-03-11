@@ -5,7 +5,7 @@ window.onload = function () {
 function getPokemons() {
   return POKEMON["pokemon"];
 }
-// console.log("Lista de Pokemons", getPokemons());
+console.log("Lista de Pokemons", getPokemons());
 
 function showPokemon() {
   let pokemonsDiv = document.getElementById("pokemons-div");
@@ -26,14 +26,14 @@ function showPokemon() {
 
 /* nomes dos pokemons */
 const namePokemon = POKEMON.pokemon;
-// namePokemon.map(elem => console.log("passou pelo teste nomes",elem.name));
-namePokemon.map(elem => elem.name);
+namePokemon.map(elem => console.log("passou pelo teste nomes",elem.name));
+console.log("passou pelo teste dos nomes",namePokemon);
 
 /* nomes dos tipos */
 
 const nameTypes = POKEMON.pokemon;
 nameTypes.map(elem => console.log("passou pelo teste tipo",elem.type));
-
+console.log("passou pelo teste dos tipos",teste);
 
 
 
