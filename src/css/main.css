@@ -27,19 +27,56 @@
 }
 
 #sort-menu, #types-menu {
-  width: 33vh;
-  height: 2em;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url("http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif") no-repeat #eeeeee;
-  background-position: 180px center;
-  font-family: "Montserrat", sans-serif;
-  border: 1px solid #ddd;
-  cursor: pointer;
-  padding-left: 8px;
-  outline: 0;
+  -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+  -webkit-margin-before: 0.6em;
+  -webkit-margin-after: 0.6em;
+  -webkit-margin-start: 0.6em;
+  -webkit-margin-end: 0.6em;
+  -moz-appearance: none; /* Remove estilo padrão do FireFox */
+  appearance: none; /* Remove estilo padrão do FireFox*/
+  background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+  background-position: 218px center;  /*Posição da imagem do background*/
+  width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+  height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+  border:1px solid #ddd;  
+  font-family: 'Quicksand', sans-serif;
+  font-weight:900;
 }
+
+.btn {
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+  padding: 8px 16px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-margin-start: 0.6em;
+  -webkit-margin-end: 0.6em;
+  font-weight:900;
+  }
+.btn:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+  }
+.btn:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+  }
 
 #main {
   display: flex;
