@@ -9,7 +9,7 @@ Segundo projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootca
 ## Índice
 
 * [Organização](#A-organização)
-* [Checklist](#Dhecklist)
+* [Checklist](#Checklist)
 * [Personas](#Personas)
 * [Definição do produto](#Definição-do-produto)
 * [Protótipo](#Protótipo)
