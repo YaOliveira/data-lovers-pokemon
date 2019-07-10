@@ -8,12 +8,12 @@ Segundo projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootca
 
 ## Índice
 
-* [Organização](#a-organização)
-* [Checklist](#checklist)
-* [Personas](#personas)
-* [Definição do produto](#definição-do-produto)
-* [Protótipo](#protótipo)
-* [Testes de usabilidade](#testes-de-usabilidade)
+* [Organização](#A-organização)
+* [Checklist](#Dhecklist)
+* [Personas](#Personas)
+* [Definição do produto](#Definição-do-produto)
+* [Protótipo](#Protótipo)
+* [Testes de usabilidade](#Testes-de-usabilidade)
 
 
 ## A organização
