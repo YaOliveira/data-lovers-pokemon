@@ -26,24 +26,21 @@ Em ambas situações, dividimos o projeto em mini partes e as mesmas foram divid
 
 ## Checklist
 
-* [ ] Usar VanillaJS.
-* [ ] Inclui _Definição de produto_ clara e informativa no `README.md`.
+* [X] Usar VanillaJS.
+* [X] Inclui _Definição de produto_ clara e informativa no `README.md`.
 * [X] Inclui esboço da solução (protótipo de baixa fidelidade e de alta fidelidade, se houver) no
   `README.md`.
-* [ ] Inclui a lista de problema detectados através dos testes de usabilidade
+* [X] Inclui a lista de problema detectados através dos testes de usabilidade
   no `README.md`.
-* [ ] UI: Mostra lista e/ou tabela com dados e/ou indicadores.
-* [ ] UI: Permite ordenar os dados por meio de um ou mais campos
+* [X] UI: Mostra lista e/ou tabela com dados e/ou indicadores.
+* [X] UI: Permite ordenar os dados por meio de um ou mais campos
   (asc e desc).
-* [ ] UI: Permite filtrar os dados com base em uma condição.
+* [X] UI: Permite filtrar os dados com base em uma condição.
 
 ## Personas
 
 ![Bruno](docs/person-bruno.png)
 ![Neyde](docs/person-neyde.png)
-![Gabriel](docs/person-gabriel.png)
-![Julia](docs/person-julia.png)
-
 
 ## Definição do produto
 
@@ -53,7 +50,8 @@ O objetivo da aplicação é oferecer uma interface intuitiva e divertida que pr
 
 
 ## Protótipo
-[Link do 1º Protótipo - Marvel](https://marvelapp.com/b2cg16h)
+[Link do 1º Protótipo - Marvel](https://marvelapp.com/b2cg16h)<br>
+[Link do 2º Protótipo - Marvel](https://marvelapp.com/b55i1ia)
 
 Durante seu trabalho você deverá ter feito esboços de sua solução usando papel
 e lápis. Recomendamos que você tire fotos de todas as iterações que faça, suba
@@ -62,6 +60,10 @@ desenhar protótipos de média fidelidade usando o [Marvel](https://marvelapp.co
 ou o [Figma](https://www.figma.com/).
 
 ## Testes de Usabilidade
+* Necessita melhoria na responsividade
+* Ao selectionar um tipo específico e uma ordenação, nem sempre os filtros estão acumulando as duas seleções para apresentar o resultado esperado.
+
+Observações extras: não conseguimos fazer o hacker edition.
 
 
 
